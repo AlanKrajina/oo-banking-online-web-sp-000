@@ -19,5 +19,7 @@ class BankAccount
       if @balance == "open" && @balance > 0
         true
       end
+    else
+      false
     end
 end
